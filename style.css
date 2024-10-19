@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151518;
+}
+
+.card {
+  width: 410px;
+  height: 415px;
+  background: #1f2731;
+  border-radius: 25px;
+  padding: 2rem 1.7rem;
+}
+
+.icon-star {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262f36;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 2.2rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.disc {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin: 0.7rem 0 1rem 0;
+  line-height: 25px;
+}
+
+.rating-btns {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.3rem 0;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  background: #262f36;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #fc7613;
+  color: black;
+}
+
+.btnactive {
+  background: #fff;
+  color: black;
+}
+
+.submit {
+  width: 97%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #262f36;
+  background: #fc7613;
+  padding: 0.7rem 0;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit:hover {
+  background: #fff;
+  color: black;
+}
+
+/*  */
+
+.submited-card {
+  width: 410px;
+  height: 415px;
+  background: #1f2731;
+  border-radius: 25px;
+  padding: 2rem;
+  text-align: center;
+  display: none;
+}
+
+.result {
+  padding: 0.5rem;
+  width: 60%;
+  background: #282e38;
+
+  color: #c75b0d;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 2.3rem auto;
+}
+
+h2 {
+  color: #dddddd;
+  font-size: 1.7rem;
+  margin-bottom: 0.8rem;
+}
+
+
